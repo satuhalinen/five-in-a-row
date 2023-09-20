@@ -1,4 +1,5 @@
-const dimensions = 5; // The initial board size is dimensions x dimensions
+let dimX = 5; // The initial board size is dimX x dimY
+let dimY = 5; //
 const winLength = 5; // How many stones needed to win
 const board = []; // The game board
 let turn = 'X'; // Starting player. The other player is 'O'.
@@ -7,7 +8,7 @@ function initializeGame() {
     // TODO: Task 1
     // Initialize the game board to be an array of five arrays.
     // Each of the inner arrays should contain five empty strings.
-    // Use the variable dimensions instead of hard coding the number five.
+    // Use the variables dimX and dimY instead of hard coding the number five.
 }
 
 function nextTurn() {
@@ -88,8 +89,8 @@ function drawBoard() {
     const boardDiv = document.getElementById('board');
     boardDiv.innerHTML = ''; // Clear the board first!
 
-    for (let y = 0; y < dimensions; y++) {
-        for (let x = 0; x < dimensions; x++) {
+    for (let y = 0; y < dimY; y++) {
+        for (let x = 0; x < dimX; x++) {
             createSquare(boardDiv, x, y);
         }
     }
