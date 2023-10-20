@@ -8,7 +8,6 @@ body {
 
 .hidden {
   visibility: hidden;
-  /* jotta voittaja ja uusi peli -tekstit ei näy kokoajan */
 }
 
 #board {
@@ -28,7 +27,7 @@ body {
   text-align: center;
   font-size: 32px;
 }
-/* tätä luokkaa ei löydy html:stä */
+
 button {
   border-radius: 5%;
   background-color: rgb(196, 236, 196);

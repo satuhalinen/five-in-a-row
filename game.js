@@ -193,6 +193,7 @@ function expandBoard(direction) {
 function handleClick(event) {
   if (!winnerText.classList.contains("hidden")) {
     return;
+    // you cannot click the board after win
   }
   let square = event.target;
 
