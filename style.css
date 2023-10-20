@@ -1,29 +1,37 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: beige;
+  background-color: beige;
 }
 
 .hidden {
-    visibility: hidden;
+  visibility: hidden;
+  /* jotta voittaja ja uusi peli -tekstit ei näy kokoajan */
 }
 
 #board {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    column-gap: 10px;
-    row-gap: 10px;
-    width: fit-content;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 10px;
+  width: fit-content;
 }
 
 .square {
-    background-color: white;
-    width: 50px;
-    height: 50px;
-    padding: 5px;
-    text-align: center;
-    font-size: 32px;
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  text-align: center;
+  font-size: 32px;
+}
+/* tätä luokkaa ei löydy html:stä */
+button {
+  border-radius: 5%;
+  background-color: rgb(196, 236, 196);
+  border: none;
+  padding: 5px;
 }
