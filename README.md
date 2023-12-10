@@ -1,5 +1,7 @@
 # Five in a Row
 
+This is a project done on a course called Programming JavaScript. All the text below is from the original exercise.
+
 A basic Five in a Row game, which needs some additions to work.
 
 The first player to get five stones of their own kind in a row (horizontally, vertically or diagonally) wins.
