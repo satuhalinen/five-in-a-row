@@ -1,4 +1,4 @@
-![sonarqube badge](http://localhost:8889/api/project_badges/measure?project=five-in-a-row&metric=alert_status&token=sqb_d8bec7cdccb7a9abb7df2d71aa27a03ea53a3de2)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=satuhalinen_five-in-a-row&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=satuhalinen_five-in-a-row)
 
 # Five in a Row
 
