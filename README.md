@@ -1,3 +1,5 @@
+[![Quality Gate Status](http://localhost:8889/api/project_badges/measure?project=five-in-a-row&metric=alert_status&token=sqb_d8bec7cdccb7a9abb7df2d71aa27a03ea53a3de2)](http://localhost:8889/dashboard?id=five-in-a-row)
+
 # Five in a Row
 
 This is a project done on a course called Programming JavaScript. All the text below is from the original exercise.
